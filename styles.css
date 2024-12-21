@@ -174,3 +174,40 @@ header {
   color: #555;
   line-height: 1.5;
 }
+
+.aliados {
+  padding: 40px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.aliados h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.logos {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.logo-item {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 300px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo-item p {
+  font-size: 16px;
+  color: #666;
+}
