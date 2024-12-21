@@ -211,3 +211,44 @@ header {
   font-size: 16px;
   color: #666;
 }
+
+.footer-container {
+  background-color: #b3b3b3;
+  display: flex;
+  padding: 20px 10px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  bottom: 0;
+  width: -webkit-fill-available;
+}
+
+.footer-container a {
+  color: #161717;
+  padding: 0px 16px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: medium;
+}
+
+.fa:hover {
+  color: #5f4640;
+}
+
+.footer-icons {
+  justify-content: space-between;
+}
+
+.footer-icons ul {
+  list-style-type: none;
+}
+
+.footer-icons li {
+  display: inline-block;
+}
+
+.copyright {
+  overflow: hidden;
+  padding-left: 20px;
+}
