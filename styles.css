@@ -102,6 +102,116 @@ header {
   color: #000;
 }
 
+.about-description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.about-description p {
+  margin: 10px;
+  display: inline-block;
+  padding: 30px 30px;
+  border-radius: 20px;
+  text-align: left;
+  font-size: 15px;
+  margin-right: 20px;
+  color: rgb(33, 33, 33);
+}
+
+.about-image {
+  width: 700px;
+  height: 300px;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding: 10px;
+  content: url("https:dummyimage.com/300x200/dedede/adadad.jpg");
+}
+
+.campeonatos {
+  padding: 20px;
+  text-align: center;
+}
+
+.campeonatos h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 250px;
+  padding: 15px;
+  text-align: left;
+}
+
+.card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.card p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.5;
+}
+
+.aliados {
+  padding: 40px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.aliados h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.logos {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.logo-item {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 300px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo-item p {
+  font-size: 16px;
+  color: #666;
+}
+
 .footer-container {
   background-color: #b3b3b3;
   display: flex;
@@ -109,7 +219,6 @@ header {
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: center;
-  position: absolute;
   bottom: 0;
   width: -webkit-fill-available;
 }
